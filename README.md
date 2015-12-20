@@ -17,7 +17,7 @@ There are two required steps before the deployment of this VM can be successful:
 
 ### Configure Permissions
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/VgRpl67nOKU" frameborder="0" allowfullscreen></iframe>
+[![YouTube](https://www.youtube.com/yt/img/logo_1x.png)](https://www.youtube.com/embed/VgRpl67nOKU)
 
 ### Create a Personal Access Token
 
