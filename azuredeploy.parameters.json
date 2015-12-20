@@ -21,10 +21,22 @@
 			"value": "uniquednsname"
 		},
 		"fileUris": {
-			"value": "http://example.com/foo.sh http://example.com/bar.py"
+			"value": "https://github.com/SyntaxC4-MSFT/VSTS-PHPAgent/raw/master/scripts/bootstrap.sh https://github.com/SyntaxC4-MSFT/VSTS-PHPAgent/raw/master/scripts/install-agent.sh https://github.com/SyntaxC4-MSFT/VSTS-PHPAgent/raw/master/scripts/install-dep.sh https://github.com/SyntaxC4-MSFT/VSTS-PHPAgent/raw/master/scripts/update-apt.sh"
 		},
 		"commandToExecute": {
-			"value": "./foo.sh"
-		}
+			"value": "./bootstrap.sh"
+		},
+    "vstsUsername": {
+      "value": "yourvstsuser"
+    },
+    "vstsPAT": {
+      "value": "yourvstspat"
+    },
+    "vstsAccountName": {
+      "value": "yourvstsdnsprefix"
+    },
+    "buildAgentName": {
+      "value": "ba-1"
+    }
 	}
 }
