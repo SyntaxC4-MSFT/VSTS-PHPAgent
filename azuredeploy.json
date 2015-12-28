@@ -256,9 +256,7 @@
         "type": "CustomScriptForLinux",
         "typeHandlerVersion": "1.3",
         "settings": {
-          "fileUris": "[split(parameters('fileUris'), ' ')]"
-        },
-        "protectedSettings":{
+          "fileUris": "[split(parameters('fileUris'), ' ')]",
           "commandToExecute": "[concat(parameters('commandToExecute'),' ',parameters('vstsUsername'),' ',parameters('vstsPAT'),' ',parameters('vstsAccountName'),' ',parameters('buildAgentName'),' ',parameters('vstsAgentPool'))]"
         }
       }
