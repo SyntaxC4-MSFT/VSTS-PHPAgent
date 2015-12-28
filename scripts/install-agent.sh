@@ -2,7 +2,7 @@
 sudo ln -s /usr/bin/nodejs /usr/bin/node
 
 # Download Agent Installer
-sudo npm install -g vsoagent-installer
+npm install -g vsoagent-installer
 sudo chown -R $USER ~/.npm
 
 # Make Install Directory for Agent
@@ -11,6 +11,8 @@ cd ~/vsoagent
 
 # Install Latest Agent
 vsoagent-installer
+
+sudo chown -R $USER ~/vsoagent
 
 # Configure Agent
 # $1 - VSTS Username
