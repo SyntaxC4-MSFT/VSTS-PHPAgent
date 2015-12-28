@@ -254,7 +254,7 @@
       "properties": {
         "publisher": "Microsoft.OSTCExtensions",
         "type": "CustomScriptForLinux",
-        "typeHandlerVersion": "1.3",
+        "typeHandlerVersion": "1.4",
         "settings": {
           "fileUris": "[split(parameters('fileUris'), ' ')]"
         },
