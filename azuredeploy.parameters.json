@@ -24,7 +24,7 @@
 			"value": "https://github.com/SyntaxC4-MSFT/VSTS-PHPAgent/raw/master/scripts/bootstrap.sh https://github.com/SyntaxC4-MSFT/VSTS-PHPAgent/raw/master/scripts/install-agent.sh https://github.com/SyntaxC4-MSFT/VSTS-PHPAgent/raw/master/scripts/install-dep.sh https://github.com/SyntaxC4-MSFT/VSTS-PHPAgent/raw/master/scripts/update-apt.sh"
 		},
 		"commandToExecute": {
-			"value": "./bootstrap.sh"
+			"value": "bash bootstrap.sh"
 		},
     "vstsUsername": {
       "value": "yourvstsuser"
